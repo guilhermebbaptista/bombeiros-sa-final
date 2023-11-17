@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+  <link rel="icon" href="logo.png">
+  <link rel="stylesheet" href="assets/css/login.css">
+
+</head>
+
+<body>
+  <div class="login_container">
+    <img src="assets/images/logo_grande.png" id="logo" width="150px">
+    <form action="/Data_base/cadastro.php" method="post">
+      <div class="input_container">
+        <!-- <label for="id">ID:</label> -->
+        <input type="text" name="equipe" class="login_input" placeholder="Equipe" id="email" required>
+        <input type="password" name="password" class="login_input" placeholder="Senha" id="senha" required>
+        <input type="password" name="confirmPassword" class="login_input" placeholder="Repetir senha" id="senha"
+          required>
+      </div>
+
+      <div class="checkbox_um">
+        <input type="checkbox" name="checkbox" id="checkbox"> sou humano
+      </div>
+      <!-- <div class="input-container"> -->
+      <!-- <label for="senha">Senha:</label> -->
+      <!-- <input type="password" class="login-input" placeholder="Senha" id="senha" required> -->
+      <!-- </div> -->
+      <button type="submit" class="login_button">Cadastrar-se</button>
+    </form>
+  </div>
+
+</body>
+
+</html>

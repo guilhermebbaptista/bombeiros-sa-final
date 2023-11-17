@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informações do paciente</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="assets/css/transporte.css">
+</head>
+<body>
+    <div class="login_container">
+        <form>
+          <div class="input_container">
+            <p class="informacoestransp">Informações do transporte</p>
+            <img src="assets/images/estavel.png" id="logo" class="estavel">
+            <p class="checkum"><input type="checkbox"><b>Estavel</b></p>
+            <img src="assets/images/instavel.png" id="logo" class="instavel">
+            <p class="checkdois"><input type="checkbox"><b>Instavel</b></p>
+            <img src="assets/images/potencial.png" id="logo" class="potencial">
+            <p class="checktres"><input type="checkbox"><b>P.Instavel</b></p>
+            <img src="assets/images/critico.png" id="logo" class="critico">
+            <p class="checkquatro"><input type="checkbox"><b>Crítico</b></p>
+          </div>
+          <button type="submit" class="login_button">Proxima página</button>
+        </form>
+        <form class="condução" action="#">
+            <label for="lang">Forma de condução<br></label>
+            <select name="transporte" id="lang" required>
+              <option value="escolha">ESCOLHER UM</option>
+              <option value="escolha">DEITADA</option>
+              <option value="escolha">SEMI-SENTADA</option>
+              <option value="escolha">SENTADA</option>
+            </select>
+          </form>
+          <form class="vitima" action="#">
+            <label for="lang">Vítima era<br></label>
+            <select name="transporte" id="lang" required>
+              <option value="escolha">ESCOLHER UM</option>
+              <option value="escolha">CICLISTA</option>
+              <option value="escolha">CONDUTOR MOTO</option>
+              <option value="escolha">GESTANTE</option>
+              <option value="escolha">PASS.BAN FRENTE</option>
+              <option value="escolha">PASS.MOTO</option>
+              <option value="escolha">CONDUTOR CARRO</option>
+              <option value="escolha">CLÍNICO</option>
+              <option value="escolha">TRAUMA</option>
+              <option value="escolha">PAS.BCO TRÁS</option>
+              <option value="escolha">PEDESTRE</option>
+            </select>
+          </form>
+          <p>Equipe de atendimento</p>
+          <input class="medico" type="text" size="7" placeholder="MÉDICO:"><br>
+          <input class="socorrum" type="text" size="7" placeholder="S1:"><br>
+          <input class="socorrdois" type="text" size="7" placeholder="S2:"><br>
+          <input class="socorrtres" type="text" size="7" placeholder="S3:"><br>
+          <input class="deman" type="text" size="12" placeholder="DEMANDANTE:">
+</body>
+</html>

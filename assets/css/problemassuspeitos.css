@@ -1,0 +1,145 @@
+@media (max-width: 1024px) {
+    /* Coloque aqui as regras de estilo que você deseja aplicar para tablets */
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      font-size: small;
+    }
+    .login_container {
+      background-color: rgb(151, 150, 253);
+      padding: 90px;
+      border-radius: 20px;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+      width: 370px;
+      height: 400px;
+      text-align: center;
+      /* position: relative; */
+      /* overflow: hidden; */
+    }
+    .input_container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-left: 35px;
+      
+    }
+    .input_container label {
+      margin-bottom: 5px;
+    }
+    .login_input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      transition: border-color 0.5s;
+    }
+    .login_input:focus {
+      border-color: #a200ff;
+      outline: none;
+    }
+    .login_button {
+      background-color: #a200ff;
+      color: white;
+      border: none;
+      padding: 10px 40px;
+      border-radius: 15px;
+      cursor: pointer;
+      margin-left: -250px;
+      margin-top: 100px;
+
+    }
+    .checkbox_um {
+      color:rgb(51, 51, 51);
+      font-size: small;
+      margin-left: -240px;
+    }
+
+    .bodydois {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+  }
+  .container {
+      max-width: 800px;
+      width: 50%;
+      margin: 20px;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 15px;
+      background-color: rgb(151, 150, 253);
+      text-align: center;
+      position: relative; /* Adicionada para posicionar a logo */
+  }
+  #logo {
+     margin-top: -150px;
+     margin-left: -400px;
+      width: 70px;
+  }
+  .occurrence {
+      border: 1px solid #9b7ccc;
+      padding: 15px;
+      margin-bottom: 20px;
+      margin-top: 15px;
+      background-color: #f1e6ff;
+      border-radius: 4px;
+  }
+  .date {
+      font-weight: bold;
+      color: #6b38a5;
+  }
+  .description {
+      margin-top: 5px;
+      color: #4f4f4f;
+  }
+.textoinicial{
+    margin-top: -40px;
+
+}
+.checkum{
+    margin-top: 40px;
+    margin-left: -60px;
+}
+.respiratorio{
+    width: 10px;
+    height: 10px;
+    margin-top: 40px;
+    margin-left: -30px;
+}
+.obstetrico{
+    width: 10px;
+    height: 10px;
+    margin-top: 20px;
+    margin-left: -30px;
+}
+.transporte{
+    width: 10px;
+    height: 10px;
+    margin-top: 45px;
+    margin-left: -30px;
+}
+.diabetes{
+    width: 10px;
+    height: 10px;
+    margin-top: 40px;
+    margin-left: -30px;
+}
+
+.caixadetexto{
+    width: 1px;
+    height: 1px;
+    margin-top: -130px;
+    margin-left: 180px; 
+}

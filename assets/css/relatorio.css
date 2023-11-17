@@ -1,0 +1,265 @@
+@media (max-width: 1024px) {
+    /* Coloque aqui as regras de estilo que você deseja aplicar para tablets */
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .login_container {
+      background-color: rgb(151, 150, 253);
+      padding: 90px;
+      border-radius: 20px;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+      width: 350px;
+      height: 400px;
+      text-align: center;
+      /* position: relative; */
+      /* overflow: hidden; */
+    }
+    .input_container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-left: 35px;
+      
+    }
+    .input_container label {
+      margin-bottom: 5px;
+    }
+    .login_input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      transition: border-color 0.5s;
+    }
+    .login_input:focus {
+      border-color: #a200ff;
+      outline: none;
+    }
+    .login_button {
+      background-color: #a200ff;
+      color: white;
+      border: none;
+      padding: 10px 40px;
+      border-radius: 15px;
+      cursor: pointer;
+      margin-left: 175px;
+      margin-top: 3px;
+    }
+    .checkbox_um {
+      color:rgb(51, 51, 51);
+      font-size: small;
+      margin-left: -240px;
+    }
+
+    .bodydois {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+  }
+  .container {
+      width: 800px;
+      width: 50%;
+      margin: 20px;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 15px;
+      background-color: rgb(151, 150, 253);
+      text-align: center;
+      position: relative; /* Adicionada para posicionar a logo */
+  }
+  #logo {
+     margin-top: -150px;
+     margin-left: -400px;
+      width: 70px;
+  }
+  .occurrence {
+      border: 1px solid #9b7ccc;
+      padding: 15px;
+      margin-bottom: 20px;
+      margin-top: 15px;
+      background-color: #f1e6ff;
+      border-radius: 4px;
+  }
+  .date {
+      font-weight: bold;
+      color: #6b38a5;
+  }
+  .description {
+      margin-top: 5px;
+      color: #4f4f4f;
+  }
+  :visited {
+    color: white;
+}
+
+  :link {
+    color: white;
+
+
+}
+.informacoesdolocal{
+    width: 200px;
+    margin-left: 70px;
+    margin-top: -60px;
+}
+.localdaocorrencia{
+    width: 200px;
+    margin-left: -50px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color: black;
+}
+.nomedohospital{
+    width: 150px;
+    margin-left: 170px;
+    margin-top: -39.5px;
+    border-radius: 5px;
+    border-color: black;
+}
+.datadotexto{
+    width: 150px;
+    margin-left: -50px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color: black;
+}
+.datadotexto{
+    width: 150px;
+    margin-left: -50px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color: black;
+}
+.nusb{
+    width: 150px;
+    margin-left: 170px;
+    margin-top: -21px;
+    border-radius: 5px;
+    border-color: black;
+}
+.kmfinal{
+    width: 150px;
+    margin-left: -50px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color: black;
+}
+.nocorr{
+    width: 150px;
+    margin-left: 170px;
+    margin-top: -21px;
+    border-radius: 5px;
+    border-color: black;
+}
+.hch{
+    width: 150px;
+    margin-left: -50px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color: black;
+}
+.desp{
+    width: 150px;
+    margin-left: 170px;
+    margin-top: -21px;
+    border-radius: 5px;
+    border-color: black;
+}
+.informacoesdopaciente{
+    width: 200px;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+.nomedopaciente{
+    width: 150px;
+    margin-left: -50px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color: black;
+}
+.sexodopaciente{
+    width: 150px;
+    margin-left: 170px;
+    margin-top: -19px;
+    border-radius: 5px;
+    border-color: black;
+}
+.rgcpf{
+    width: 150px;
+    margin-left: -50px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color: black;
+}
+.idadedopaciente{
+    width: 150px;
+    margin-left: 170px;
+    margin-top: -19px;
+    border-radius: 5px;
+    border-color: black;
+}
+.informacoesamigo{
+    width: 250px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.nomedoamigo{
+    width: 150px;
+    margin-left: -50px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color: black;
+}
+.idadedoamigo{
+    width: 150px;
+    margin-left: 170px;
+    margin-top: -19px;
+    border-radius: 5px;
+    border-color: black;
+}
+.telefonedoamigo{
+    width: 150px;
+    margin-left: -50px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color: black;
+}
+.informacoestransp{
+    width: 250px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.checkum{
+    margin-left: -50px;
+    color: rgb(0, 77, 0);
+}
+.checkdois{
+    margin-left: 40px;
+    margin-top: -35px;
+    color: rgb(206, 192, 0);
+}
+.checktres{
+    margin-left: 140px;
+    margin-top: -35px;
+    color: rgb(206, 117, 0);
+ }
+
+.checkquatro{
+    margin-left: 240px;
+    margin-top: -35px;
+    color: rgb(206, 0, 0);
+}

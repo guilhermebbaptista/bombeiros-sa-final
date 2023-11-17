@@ -1,0 +1,187 @@
+@media (max-width: 1024px) {
+    /* Coloque aqui as regras de estilo que você deseja aplicar para tablets */
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .login_container {
+      background-color: rgb(151, 150, 253);
+      padding: 90px;
+      border-radius: 20px;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+      width: 350px;
+      height: 400px;
+      text-align: center;
+      /* position: relative; */
+      /* overflow: hidden; */
+    }
+    .input_container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-left: 35px;
+      
+    }
+    .input_container label {
+      margin-bottom: 5px;
+    }
+    .login_input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      transition: border-color 0.5s;
+    }
+    .login_input:focus {
+      border-color: #a200ff;
+      outline: none;
+    }
+    .login_button {
+      background-color: #a200ff;
+      color: white;
+      border: none;
+      padding: 10px 40px;
+      border-radius: 15px;
+      cursor: pointer;
+      margin-left: 175px;
+      margin-top: 250px;
+    }
+    .checkbox_um {
+      color:rgb(51, 51, 51);
+      font-size: small;
+      margin-left: -240px;
+    }
+
+    .bodydois {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+  }
+  .container {
+      max-width: 800px;
+      width: 50%;
+      margin: 20px;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 15px;
+      background-color: rgb(151, 150, 253);
+      text-align: center;
+      position: relative; /* Adicionada para posicionar a logo */
+  }
+  #logo {
+      width: 140px;
+  }
+  .occurrence {
+      border: 1px solid #9b7ccc;
+      padding: 15px;
+      margin-bottom: 20px;
+      margin-top: 15px;
+      background-color: #f1e6ff;
+      border-radius: 4px;
+  }
+  .date {
+      font-weight: bold;
+      color: #6b38a5;
+  }
+  .description {
+      margin-top: 5px;
+      color: #4f4f4f;
+  }
+  :visited {
+    color: white;
+}
+
+  :link {
+    color: white;
+
+
+}
+.informacoestransp{
+    width: 250px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.checkum{
+    margin-left: -60px;
+    margin-top: 1px;
+    color: rgb(0, 77, 0);
+}
+.checkdois{
+    margin-left: 145px;
+    margin-top: 11px;
+    color: rgb(206, 117, 0);
+}
+.checktres{
+    margin-left: 35px;
+    margin-top: 12px;
+    color: rgb(214, 200, 1);
+ }
+
+.checkquatro{
+    margin-left: 240px;
+    margin-top: 11px;
+    color: rgb(206, 0, 0);
+}
+.estavel{
+margin-left: -70px;
+margin-top: -2px;
+}
+.instavel{
+    margin-left: 135px;
+    margin-top: -125px;
+    }
+    .potencial{
+        margin-left: 25px;
+        margin-top: -126px;
+    }
+
+    .critico{
+        margin-left: 220px;
+        margin-top: -126px;
+    }
+    .condução{
+        margin-left: -250px;
+        margin-top: -250px;
+    }
+    .vitima{
+        margin-left: 180px;
+        margin-top: -37px;
+    }
+    .medico{
+        margin-top: 5px;
+        margin-left: -290px;
+        background-color: white;
+    }
+    .socorrum{
+        margin-top: 5px;
+        margin-left: -289px;
+        background-color: white;
+    }
+    .socorrdois{
+        margin-top: 5px;
+        margin-left: -289px;
+        background-color: white;
+    }
+    .socorrtres{
+        margin-top: 5px;
+        margin-left: -289px;
+        background-color: white;
+    }
+    .deman{
+        margin-top: 5px;
+        margin-left: -257px;
+        background-color: white;
+    }
